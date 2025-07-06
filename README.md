@@ -7,8 +7,8 @@ It is a console-based book store system written in **x86 Assembly Language (MASM
 
 ## 👩‍💻 Authors
 
-- **Hafsa**
-- **Ayesha**
+- **Hafsa Shahzad**
+- **Ayesha Riaz**
 
 🎓 *Submitted as part of our semester project for Assembly Language Programming.*
 
