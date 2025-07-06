@@ -32,12 +32,6 @@ This project allows users to:
   - 💳 Card (no extra fee)
 - View total bill and a thank-you message.
 
----
-
-## 📁 Files
-
-- `bookie_store.asm` — Main assembly source code
-- `README.md` — This documentation file
 
 ---
 
@@ -48,11 +42,68 @@ This project allows users to:
 
 ---
 
-## 🚀 How to Compile & Run
+## 🖥️ Sample Output
 
-### ✅ If you're using MASM / TASM:
+=============================================
 
-```bash
-tasm bookie_store.asm      ; Assemble the source code
-tlink bookie_store.obj     ; Link the object file
-bookie_store.exe           ; Run the executable
+WELCOME TO HAFSA AYESHA BOOKIE STORE *
+=============================================
+
+                 | CHOOSE A BOOK CATEGORY |
+1. Islamic Books
+
+2. English Books
+
+3. History Books
+
+4. Science Books
+
+5. Urdu Literature
+
+6. Exit
+
+Enter your choice (1–6): 3
+
+--- History Books ---
+
+1. A People's History – Rs.480
+
+2. Guns, Germs, and Steel – Rs.500
+
+3. The Silk Roads – Rs.530
+
+Select a book (1–3): 3
+Would you like to buy another book? (Y/N): Y
+
+Enter your choice (1–6): 1
+
+--- Islamic Books ---
+
+1. Quran – Rs.500
+
+2. Sahih Bukhari – Rs.600
+
+3. Riyad-us-Saliheen – Rs.550
+
+Select a book (1–3): 2
+Would you like to buy another book? (Y/N): N
+
+Choose payment method - 1. Cash 2. Card: 1
+Rs.50 Cash on Delivery fee applied.
+Payment successful via Cash! Thank you for your purchase!
+
+Your total bill is: 1180
+
+*** Thank you for visiting Hafsa Ayesha Bookie Store! ***
+
+
+---
+
+
+## License
+
+For academic use only. Created for a semester project.
+
+---
+
+
